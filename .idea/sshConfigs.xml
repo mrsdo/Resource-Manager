@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="twenty9signals.com" id="438b12f1-253b-4062-acca-d3c91f23445a" keyPath="$USER_HOME$/.ssh/id_macbookair" port="22" nameFormat="DESCRIPTIVE" username="twenty45" />
+    </configs>
+  </component>
+</project>
