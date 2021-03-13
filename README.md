@@ -35,3 +35,5 @@ end
 ## Getting Started - Baseline Files
 I will not be using Corneal to create this project. I will be using the following:
 ### Project Development Resources
+- Github: https://github.com/mrsdo/Resource-Manager
+
