@@ -1,0 +1,24 @@
+[ N 2021-03-13 11:54:49.7502 34690/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2021-03-13 11:54:49.8087 34692/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2021-03-13 11:54:49.8104 34692/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2021-03-13 11:54:49.8466 34692/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 34692
+[ N 2021-03-13 11:54:52.8768 34692/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 34712 output: Error: The application encountered the following error: uninitialized constant ApplicationController (NameError)
+App 34712 output:     config.ru:7:in `block in <main>'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/rack-2.2.3/lib/rack/builder.rb:125:in `instance_eval'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/rack-2.2.3/lib/rack/builder.rb:125:in `initialize'
+App 34712 output:     config.ru:1:in `new'
+App 34712 output:     config.ru:1:in `<main>'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/passenger-6.0.7/src/helper-scripts/rack-preloader.rb:101:in `eval'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/passenger-6.0.7/src/helper-scripts/rack-preloader.rb:101:in `preload_app'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/passenger-6.0.7/src/helper-scripts/rack-preloader.rb:189:in `block in <module:App>'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/passenger-6.0.7/src/ruby_supportlib/phusion_passenger/loader_shared_helpers.rb:382:in `run_block_and_record_step_progress'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/passenger-6.0.7/src/helper-scripts/rack-preloader.rb:188:in `<module:App>'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/passenger-6.0.7/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+App 34712 output:     /Users/mrsdo/.rvm/gems/ruby-2.7.2/gems/passenger-6.0.7/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+[ E 2021-03-13 11:55:06.5642 34692/Tj age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /Volumes/Development/inmotion/twenty9signals: The application encountered the following error: uninitialized constant ApplicationController (NameError)
+  Error ID: c5e260a2
+  Error details saved to: /var/folders/62/cv_zt3mx1v3bgtcgrdbxw3wh0000gn/T//passenger-error-FWflNx.html
+
+[ E 2021-03-13 11:55:06.6597 34692/Ta age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is c5e260a2. Please see earlier logs for details about the error.
+[ E 2021-03-13 11:55:06.6597 34692/T8 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is c5e260a2. Please see earlier logs for details about the error.
