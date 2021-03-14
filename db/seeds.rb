@@ -1,7 +1,10 @@
 require 'faker'
 
-puts "Adding Listings table data..."
-4.times do
+percent = 0
+cnt_listings = 25
+cnt_listings.times do
+  cnt_listings.each{ |x| sleep(0.05); print "#{percent += 1}%\r" }
+
   Listing.create({
                    "name" => Faker::Name.unique.name,
                    "tag_name" => Faker::Marketing.buzzwords,
