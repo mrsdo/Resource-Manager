@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Listings
-class ListingController < ApplicationController
+class ListingsController < ApplicationController
   get '/listings' do
     @listing = Listing.all
     erb :"/listings/index.html"
